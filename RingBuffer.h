@@ -21,8 +21,8 @@ template <class T> RingBuffer
     //bool overwrite;                       // sollte überflüssig sein
     T* d_buf;                               // Data Buffer
     T* d_next;
-    T* d_read_next;
-                                 // Pointer to next data location
+    T* d_read_next;                         // Pointer to next data location
+
 public:
     RingBuffer();                           // Default-Constructor
     RingBuffer(size_t);                     // Custom-Constructor
