@@ -1,3 +1,6 @@
+#ifndef RINGBUFFER_H
+#define RINGBUFFER_H
+
 template <class T> RingBuffer
 {
     size_t d_size;                          // Number of Data
@@ -16,3 +19,5 @@ public:
     void eraseBuffer();                     // erase data from buffer
     RingBuffer& operator= (RingBuffer&);    // overload assignment operator
 }
+
+#endif // RINGBUFFER_H
