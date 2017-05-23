@@ -20,10 +20,12 @@
 using namespace std;
 
 RingBuffer::RingBuffer(  )
-{
+// Initialisierungs-Liste des default constructors
+size_t = 0;
 
-};
+{};
 
+// custom constructor
 RingBuffer::RingBuffer( int iLength )
 {
 
