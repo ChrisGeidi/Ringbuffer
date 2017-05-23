@@ -19,7 +19,6 @@
 
 using namespace std;
 
-<<<<<<< HEAD
 RingBuffer::RingBuffer(  )
 // Initialisierungs-Liste des default constructors
 size_t = 0;
@@ -28,7 +27,6 @@ size_t = 0;
 
 // custom constructor
 RingBuffer::RingBuffer( int iLength )
-=======
 template <class T>
 RingBuffer<T>::RingBuffer(size_t size_size)
 :
@@ -43,7 +41,6 @@ RingBuffer<T>::RingBuffer(size_t size_size)
 };
 
 RingBuffer::RingBuffer(int iLength)
->>>>>>> origin/master
 {
 
 };
