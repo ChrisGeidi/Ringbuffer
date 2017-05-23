@@ -18,3 +18,26 @@
 #include <sstream>
 
 using namespace std;
+
+RingBuffer::RingBuffer(  )
+{
+
+};
+
+RingBuffer::RingBuffer( int iLength )
+{
+
+};
+
+RingBuffer::RingBuffer( RingBuffer& adr_rb )
+{
+
+};
+
+~RingBuffer()
+{
+    // delete
+};
+
+template <class T> RingBuffer
+void RingBuffer::storeData()
